@@ -1,8 +1,8 @@
 # separate even and odd numbers into two separate list
 
-str_nums = input("Enter some integer numbers (separed by space): ")
+numbers = input("Enter some integer numbers (separed by space): ")
 
-numbers = str_nums.split(" ")
+numbers = numbers.split(" ")
 even_list = []
 odd_list = []
 
@@ -13,6 +13,6 @@ for i in range(len(numbers)):
     else:
         odd_list.append(numbers[i])
 
-print(f"List of even numbers:{even_list}", end=" ")
+print(f"List of even numbers: {even_list}", end=" ")
 print()
-print(f"List of odd numbers:{odd_list}", end=" ")
+print(f"List of odd numbers: {odd_list}", end=" ")

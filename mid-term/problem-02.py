@@ -1,11 +1,9 @@
 # find largest and smallest number from a list of numbers
+numbers = input("Enter some integer numbers (separed by space): ")
+numbers = numbers.split(" ")
 
-str_nums = input("Enter some integer numbers (separed by space): ")
+for i in range(len(numbers)):
+    numbers[i] = int(numbers[i])
 
-num_list = str_nums.split(" ")
-
-for i in range(len(num_list)):
-    num_list[i] = int(num_list[i])
-
-print(f"Largest number of given numbers: {max(num_list)}")
-print(f"Smallest number of given numbers: {min(num_list)}")
+print(f"Largest number of given numbers: {max(numbers)}")
+print(f"Smallest number of given numbers: {min(numbers)}")
