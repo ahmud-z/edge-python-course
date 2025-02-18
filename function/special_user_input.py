@@ -1,0 +1,1 @@
+# Write a Python Program to get Username from User that should Contain Only Alpha or Numeric Data, not Special Character or White Space. And Length of Username should be Equal to 8 or Less Than 20 Characters
